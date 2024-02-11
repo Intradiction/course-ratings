@@ -1,7 +1,14 @@
-import React from 'react'
+import React from 'react';
+import NavBar from './components/NavBar';
+import CourseCard from './components/CourseCard';
 
 export default function App() {
   return (
-    <div className='text-3xl bg-fuchsia-600'>Tailwind init</div>
+    <>
+      <NavBar />
+      <CourseCard />
+      <CourseCard />
+      <CourseCard />
+    </>
   )
 }
