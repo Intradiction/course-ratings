@@ -1,8 +1,13 @@
-# React + Vite
+# Course Ratings App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This web app allows students to rate courses for their university (TMU for me) and share comments
 
-Currently, two official plugins are available:
+## Features
+- Anonymously rate courses without creating any accounts - just click your desired star rating
+- Share comments including any tips or tricks for the course
+- View everyone else's opinions in an intuitive and minimalistic 
+- Analyzes data and shows you the top courses for your needs
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- MERN (MongoDB Express React Node.js)
+- Vercel for frontend and backend deployment
